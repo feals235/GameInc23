@@ -1,0 +1,327 @@
+@charset "UTF-8";	
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.secondary_header {
+	width: 100%;
+	height: 1px;
+	padding-top: 5px;
+	padding-bottom: 50px;
+	background-color: #D67438;
+}
+.bgcolor {
+	padding-left: 425px;
+	position:absolute;
+	}
+.logogameinc {
+	padding-left: 615px;
+	position:absolute;
+	}
+
+.navabout {
+	float: left;
+	margin-left: 100px; 
+	margin-top: 0px;
+}
+
+.navabout p {
+	color: white; 
+	position:absolute;}
+
+.navgames {
+	float: left;
+	margin-left: 230px; 
+	margin-top: 0px;
+}
+
+.navgames p {
+	color: white; 
+	position:absolute;
+}
+
+.navgamesb {
+	float: left;
+	margin-left: 400px; 
+	margin-top: 0px;
+}
+
+.navgamesb p {
+	color: white; 
+	position:absolute;
+}
+
+.navgallery {
+	float: right;
+	margin-right: 250px; 
+	margin-top: 0px;
+}
+
+.navgallery p {
+	color: white; 
+	position:absolute;
+}
+
+.navcontact {
+	float: right;
+	margin-right: 450px; 
+	margin-top: 0px;
+}
+
+.navcontact p {
+	color: white; 
+	position:absolute;
+}
+
+.row {
+	width: 1100PX;
+	margin-top: 0px;
+	margin-right: 75px;
+	margin-bottom: 0px;
+	margin-left: 75px;
+	padding-top: 0px;
+	padding-right: 115px;
+	padding-bottom: 0px;
+	padding-left: 115px;
+	background-color: #0097B2;
+	display: inline-block
+}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+}
+
+.columns {
+
+padding-left: 50px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	display: flex; 
+	max-width: 1200px; 
+	min-height: 100vh;
+	width: 100%; 
+	flex-wrap: wrap;
+	align-content: center;
+	
+}
+.columns h2{
+	
+	margin-left: 445px;
+	position: absolute;
+	color: white;
+	border-bottom: 2px solid white;
+
+}
+
+.square1 {
+	
+	background-color: #D67438;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 240px;
+	width: 1000px;
+	height: 230px;
+	border: #FFFFFF solid 5px;
+
+}
+
+.gallery-caption {
+	
+text-align: justify;
+	width: 600px;
+	margin-top: 20px;
+	padding-left: 170px;
+	color: white;
+	position: absolute;
+	
+}
+.gallery {
+	
+	margin-left: 20px;
+	
+}
+.gallery img {
+
+padding: 10px;
+	padding-top: 25px;
+	padding-left: 9px;
+	margin-bottom: 5px;
+	width: 300px;
+	height: 200px;
+	filter: grayscale(80%);
+	transition: transform .2s;
+	cursor: pointer;
+	
+	
+}
+
+.gallery img:hover {
+
+	filter: grayscale(0%);
+	transform: scale(1.1)
+	
+}
+
+.square2 {
+	
+	background-color: #D67438;
+	position: absolute;
+	margin-top: 450px;
+	margin-left: 220px;
+	width: 1000px;
+	height: 225px;
+	border: #FFFFFF solid 5px;
+
+}
+
+
+
+.gallery2-caption {
+	
+text-align: justify;
+	width: 600px;
+	padding-left: 150px;
+	color: white;
+	position: absolute;
+	
+}
+
+.gallery2 img {
+
+padding: 10px;
+	padding-top: 130px;
+	padding-left: 9px;
+	margin-bottom: 5px;
+	width: 300px;
+	height: 200px;
+	filter: grayscale(80%);
+	transition: transform .2s;
+	cursor: pointer;
+	
+}
+
+.gallery2 img:hover {
+
+	filter: grayscale(0%);
+	transform: scale(1.1)
+	
+}
+
+@media (min-width: 1001px) {
+}
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+footer {
+	background-color: #D67438;	
+}
+.col-1 {
+	float: left;
+	padding-left: 50px;
+	margin-top: 80px;
+	padding-right: 780px;
+	padding-bottom: 15px;
+	margin-left: 75px;
+	position: absolute;
+	background-color: #D67438;
+}
+.col-1 img{
+	margin-top: 15px;
+}
+.location{
+	width: 500px;
+}
+.locationparta p{
+	width: 175px;
+	margin-left: 35px;
+}
+.locationparta img{
+position: absolute
+}
+.locationpartb p{
+	margin-left: 35px;
+	padding-top: 15px;
+}
+.locationpartb img{
+position: absolute
+}
+.logofooter {
+	margin-top: 15px;
+	position: absolute;
+}
+.titlefooter {
+	margin-top: 15px;
+	margin-left: 30px;
+	position: absolute;
+}
+.socicon {
+margin-top: 75px;
+}
+.socicon img{
+padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.col-2 {
+	float: right;
+	padding-right: 80px;
+	padding-left: 200px;
+	padding-bottom: 5px;
+	margin-right: 100px;
+	margin-bottom: 80px;
+	background-color: #D67438;
+}
+.field-group {
+	width: 600px;
+	margin-top: 100px;
+	position: relative;
+	color: white;
+}
+.input-field {
+width: 100%;
+	outline: 0;
+	border: 0;
+	border-bottom: 2px solid white;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+	color: #fff;
+	transition: 0.3s ease;
+	}
+.input-label {
+	display: block;
+	top: 0;
+	color: white;
+	text-transform: uppercase;
+	transition: 0.3s ease;
+}
+.col-2 button {
+	margin-top: 20px;
+}
+
+.col-2 h3 {
+	position: absolute;
+	color: white;
+	margin-top: 60px;
+}
+
+#menu {
+}
